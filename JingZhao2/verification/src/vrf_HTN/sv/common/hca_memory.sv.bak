@@ -1,0 +1,443 @@
+//CREATE INFORMATION
+//----------------------------------------------------------------------------------------------
+//
+//  (C) COPYRIGHT 2021 BY ICT-HPC CORPORATION ALL RIGHTS RESERVED
+//  DATE     : 2021-01-16
+//  AUTHOR   : mazhenlong@ncic.ac.cn
+//  FILENAME : hca_memory.sv
+//  FUNCTION : This file supplies the env of verification of HCA.
+//
+//----------------------------------------------------------------------------------------------
+
+//CHANGE HISTORY
+//----------------------------------------------------------------------------------------------
+//
+//  AUTHOR          DATE          VERSION          REASON
+//  mazhenlong      2021-01-16    v1.0             modified from chpp_memory
+//  mazhenlong      2021-04-06    v1.1             delete contents related to
+//                                                 rq addr in chpp
+//  mazhenlong      2021-04-28    v1.2             delete write_2B, write_4B, write_8B, write_16B,
+//                                                 read_2B, read_4B, read_8B, read_16B;
+//                                                 delete hspeed methods
+//
+//----------------------------------------------------------------------------------------------
+
+`ifndef __HCA_MEMORY__
+`define __HCA_MEMORY__
+
+typedef class hca_mem_cache;
+typedef class hca_mem_line;
+typedef class hca_addr_align;
+typedef class hca_math_func;
+typedef class hca_fifo;
+
+//------------------------------------------------------------------------------------------------
+//
+// CLASS: hca_memory
+//
+//------------------------------------------------------------------------------------------------
+
+class hca_memory #(uint line_size=256) extends uvm_object;
+
+    // varaiables
+    // this_typ
+    typedef hca_memory #(line_size) this_typ;
+    typedef hca_fifo #(line_size) fifo_typ;
+    //parameter depth = 4096;
+    // parameter depth = 2147483648 * `QP_NUM; // 2G * `QP_NUM
+    // parameter ulint depth = 16 * 1024 * 4 * 1024 * 1024 * 1024 * 2;
+    // parameter depth = 16 * 1024 * 4 * 1024 * 1024 * 1024 * 2;
+    parameter ulint depth = 2147483648;
+    // bit [`DEPTH_BIT_WIDTH-1: 0]  depth = `DEPTH_BIT_WIDTH{1};
+
+    // memory unit
+    bit [line_size-1:0] line;
+    //bit [line_size-1:0] mem[*]; // associative array
+    hca_mem_cache #(line_size, depth) mem_cache;
+    int qp_amount = 16384;
+    hca_mem_cache #(line_size, depth) qp_data_mem[];
+
+    // address check
+    hca_addr_align #(mem_addr_typ) addr_align;
+
+    // mathmatics function
+    hca_math_func math;
+
+    hca_addr_table addr_table;
+
+    bool PRINT_WRITE_LINE_BYTE = FALSE;
+
+    // provide implementations of virtual methods such as get_type_name and create
+    `uvm_object_param_utils_begin(hca_memory #(line_size))
+        `uvm_field_int(line, UVM_DEFAULT|UVM_HEX)
+        `uvm_field_object(mem_cache, UVM_DEFAULT)
+        `uvm_field_object(addr_align, UVM_DEFAULT)
+        `uvm_field_object(math, UVM_DEFAULT)
+        `uvm_field_enum(bool, PRINT_WRITE_LINE_BYTE, UVM_DEFAULT)
+    `uvm_object_utils_end
+
+    // functions and tasks
+    //------------------------------------------------------------------------------
+    // function name : new
+    // function      : constructor
+    // invoked       : be invoked when instantiates hca_memory
+    //------------------------------------------------------------------------------
+    function new(string name = "hca_memory");
+        super.new(name);
+        qp_data_mem = new[qp_amount]; // 16K QPs
+        for (int i = 0; i < qp_amount; i++) begin
+            qp_data_mem[i] = hca_mem_cache#(line_size, depth)::type_id::create($sformatf("mem_cache[%0d]", i));
+        end
+        math = hca_math_func::type_id::create("math");
+        addr_align = hca_addr_align#(mem_addr_typ)::type_id::create("addr_align");
+        mem_cache = hca_mem_cache#(line_size, depth)::type_id::create("mem_cache");
+        addr_table = hca_addr_table::type_id::create("addr_table");
+    endfunction
+
+    // declare extern functions and tasks
+    extern function void write_byte(mem_addr_typ addr, byte_typ data);
+    extern function void write_line(ulint idx, bit[line_size-1:0] data);
+    extern function void write_block(mem_addr_typ addr, fifo_typ fifo, uint length);
+
+    extern function bit[7:0] read_byte(mem_addr_typ addr);
+    extern function bit[line_size-1:0] read_line(ulint idx);
+    extern function hca_fifo #(line_size) read_block(mem_addr_typ addr, uint length);
+
+    extern function void reset();
+    extern function ulint get_entry_num();
+
+endclass : hca_memory
+
+//------------------------------------------------------------------------------
+// function name : write_byte
+// function      : write one byte to memory
+// invoked       : be invoked by write_block function(), etc. 
+//------------------------------------------------------------------------------
+function void hca_memory::write_byte(mem_addr_typ addr, byte_typ data);
+    int byte_idx;
+    ulint line_idx;
+    int byte_idx_bits;
+    bit[line_size/`BYTE_BIT_WIDTH-1:0][`BYTE_BIT_WIDTH-1:0] d_line;
+    byte_idx_bits = math.log_func(line_size/`BYTE_BIT_WIDTH);
+
+    byte_idx = addr & {byte_idx_bits{1'b1}};
+    line_idx = addr >> byte_idx_bits;
+    d_line = mem_cache.get_entry(line_idx);
+    d_line[byte_idx] = data;
+    write_line(line_idx, d_line);
+endfunction : write_byte
+
+//------------------------------------------------------------------------------
+// function name : write_line
+// function      : write one line to memory
+// invoked       : be invoked by write_byte function(), etc. 
+//------------------------------------------------------------------------------
+function void hca_memory::write_line(ulint idx, bit[line_size-1:0] data);
+    mem_cache.add_entry(idx, data);
+endfunction : write_line
+
+//------------------------------------------------------------------------------
+// function name : write_block
+// function      : write specified data to memory
+// invoked       : be invoked by user
+//------------------------------------------------------------------------------
+function void hca_memory::write_block(mem_addr_typ addr, fifo_typ fifo, uint length);
+    ulint line_idx;
+    int byte_idx_bits;
+    // `uvm_info("NOTICE", $sformatf("write_block"), UVM_LOW);
+    byte_idx_bits = math.log_func(line_size/`BYTE_BIT_WIDTH);
+
+    //if (addr_align.addr_align_line(line_size, addr) == TRUE) begin
+    if ((addr_align.addr_align_line(line_size, addr) == TRUE) && (length > line_size/`BYTE_BIT_WIDTH)) begin
+        for ( ; length > (line_size/`BYTE_BIT_WIDTH); length-=(line_size/`BYTE_BIT_WIDTH), addr+=(line_size/`BYTE_BIT_WIDTH)) begin
+            line_idx = addr >> byte_idx_bits;
+            //`define PRINT_WRITE_LINE_BYTE
+            PRINT_WRITE_LINE_BYTE = TRUE;
+                write_line(line_idx, fifo.pop());
+            PRINT_WRITE_LINE_BYTE = FALSE;
+            //`undef PRINT_WRITE_LINE_BYTE
+        end
+        for ( ; length > 0; length--, addr++) begin
+            write_byte(addr, fifo.pop_byte());
+        end
+    end
+    else begin
+        for ( ; length > 0; length--, addr++) begin
+            write_byte(addr, fifo.pop_byte());
+        end
+    end
+endfunction : write_block
+
+//------------------------------------------------------------------------------
+// function name : read_byte
+// function      : read one byte from memory
+// invoked       : be invoked by read_block function(), etc. 
+//------------------------------------------------------------------------------
+function bit[7:0] hca_memory::read_byte(mem_addr_typ addr);
+    int byte_idx;
+    ulint line_idx;
+    int byte_idx_bits;
+    bit[line_size/`BYTE_BIT_WIDTH-1:0][`BYTE_BIT_WIDTH-1:0] d_line;
+    byte_typ data;
+
+    if ($test$plusargs("CHPP_MEM_RW_MON")) begin
+        // `CHPP_PRINT_INFO("PRINT/MEM/RW", $time, $sformatf("Read byte, address = 0x%0h", addr), UVM_MEDIUM)
+    end
+
+    byte_idx_bits = math.log_func(line_size/`BYTE_BIT_WIDTH);
+    byte_idx = addr & {byte_idx_bits{1'b1}};
+    line_idx = addr >> byte_idx_bits;
+    d_line = mem_cache.get_entry(line_idx);
+    data = d_line[byte_idx];
+
+    if ($test$plusargs("CHPP_MEM_RW_MON")) begin
+        // `CHPP_PRINT_INFO("PRINT/MEM/RW", $time, $sformatf("Read data = 0x%0h", data), UVM_MEDIUM)
+    end
+
+    return data;
+endfunction : read_byte
+
+//------------------------------------------------------------------------------
+// function name : read_line
+// function      : read one line from memory
+// invoked       : be invoked by user
+//------------------------------------------------------------------------------
+function bit[hca_memory::line_size-1:0] hca_memory::read_line(ulint idx);
+    bit[line_size-1:0] d_line;
+    d_line = mem_cache.get_entry(idx);
+
+    if ($test$plusargs("CHPP_MEM_RW_MON")) begin
+        // `CHPP_PRINT_INFO("PRINT/MEM/RW", $time, $sformatf("Read line, line index = %0d", idx), UVM_MEDIUM)
+    end
+    if ($test$plusargs("CHPP_MEM_RW_MON")) begin
+        // `CHPP_PRINT_INFO("PRINT/MEM/RW", $time, $sformatf("Read data = 0x%0h", d_line), UVM_MEDIUM)
+    end
+
+    return d_line;
+endfunction : read_line
+
+//------------------------------------------------------------------------------
+// function name : read_block
+// function      : read specified bytes from memory
+// invoked       : be invoked by user
+//------------------------------------------------------------------------------
+//change the return type for vcs_vE-2011.03, #(hca_memory::line_size) can only support by 2012 and later version
+//function hca_fifo #(hca_memory::line_size) hca_memory::read_block(mem_addr_typ addr, uint length);
+function hca_fifo #(`MEM_LINE_SIZE) hca_memory::read_block(mem_addr_typ addr, uint length);
+    ulint line_idx;
+    int byte_idx_bits;
+    bit[line_size/`BYTE_BIT_WIDTH-1:0][`BYTE_BIT_WIDTH-1:0] d_line;
+    hca_fifo #(line_size) fifo;
+     `uvm_info("NOTICE", $sformatf("read_block"), UVM_LOW);
+    fifo = hca_fifo #(line_size)::type_id::create("fifo");
+    byte_idx_bits = math.log_func(line_size/`BYTE_BIT_WIDTH);
+
+    if (addr_align.addr_align_line(line_size, addr) == TRUE) begin
+        for ( ; length > (line_size/`BYTE_BIT_WIDTH); length-=(line_size/`BYTE_BIT_WIDTH), addr+=(line_size/`BYTE_BIT_WIDTH)) begin
+            line_idx = addr >> byte_idx_bits;
+            fifo.push(read_line(line_idx)); // mzlnote
+        end
+        for ( ; length > 0; length--, addr++) begin
+            fifo.push_byte(read_byte(addr));
+        end
+    end
+    else begin
+        //for ( ; length > (line_size/`BYTE_BIT_WIDTH); length-=(line_size/`BYTE_BIT_WIDTH), addr+=(line_size/`BYTE_BIT_WIDTH)) begin
+        for ( ; length > (line_size/`BYTE_BIT_WIDTH); length-=(line_size/`BYTE_BIT_WIDTH)) begin
+            for (int i = 0; i < line_size/`BYTE_BIT_WIDTH; i++, addr++) begin
+                d_line[i] = read_byte(addr);
+            end
+            fifo.push(d_line);
+            `uvm_info("NOTICE", $sformatf("d_line in read_block in mem: %h, addr: %h", d_line, addr), UVM_LOW);
+        end
+        for ( ; length > 0; length--, addr++) begin
+            fifo.push_byte(read_byte(addr));
+        end
+    end
+    return fifo;
+endfunction : read_block
+
+//------------------------------------------------------------------------------
+//
+// CLASS: hca_mem_cache
+//
+//------------------------------------------------------------------------------
+
+class hca_mem_cache #(uint line_size=`MEM_LINE_SIZE, ulint depth=2147483648 * 16) extends uvm_object;
+    typedef hca_mem_cache #(line_size) this_typ;
+
+    // cache lines
+    hca_mem_line #(line_size) entries[$];
+    // bit [line_size
+    // mathmatics function
+    hca_math_func math;
+    // high speed cache line
+    hca_mem_line #(line_size) hspeed_entry;
+    // page size
+    string page_size;
+
+    // provide implementations of virtual methods such as get_type_name and create
+    `uvm_object_param_utils_begin(hca_mem_cache #(line_size, depth))
+        `uvm_field_queue_object(entries, UVM_DEFAULT)
+        `uvm_field_object(math, UVM_DEFAULT)
+        `uvm_field_object(hspeed_entry, UVM_DEFAULT)
+        `uvm_field_string(page_size, UVM_DEFAULT)
+    `uvm_object_utils_end
+
+    // functions and tasks
+    //------------------------------------------------------------------------------
+    // function name : new
+    // function      : constructor
+    // invoked       : be invoked when instantiates hca_mem_cache
+    //------------------------------------------------------------------------------
+    function new(string name = "hca_mem_cache");
+        super.new(name);
+        math = hca_math_func::type_id::create("math");
+        hspeed_entry = hca_mem_line#(line_size)::type_id::create("hspeed_entry");
+    endfunction
+
+    //------------------------------------------------------------------------------
+    // function name : add_entry
+    // function      : add one memory line to the entries
+    // invoked       : be invoked by function get_entry() 
+    //------------------------------------------------------------------------------
+    function bool add_entry(ulint idx, ref bit[line_size-1:0] value);
+        hca_mem_line #(line_size) entry;
+
+        entry = hca_mem_line#(line_size)::type_id::create("entry");
+
+        // hit case
+        foreach (entries[i]) begin
+            if (entries[i].idx == idx) begin
+                //if (i != 0) begin
+                entry.idx = idx;
+                entry.value = value;
+                entries.delete(i);
+                entries.push_back(entry);
+                return TRUE;
+                //end
+            end
+        end
+
+        // unhit case
+        entry.idx = idx;
+        entry.value = value;
+        entries.push_back(entry);
+        if (entries.size() > depth) begin // limit the size of entries
+            `uvm_info("MEMORY_NOT_ENOUGH", $sformatf("entries evict! entries.size: %0d, depth: %0d", entries.size(), depth), UVM_HIGH);
+            // entries.pop_front(); // evict policy : FIFO
+        end
+        return FALSE;
+
+    endfunction : add_entry
+
+    //------------------------------------------------------------------------------
+    // function name : get_entry
+    // function      : get one memory line from the entries
+    // invoked       : be invoked by function read_byte(), write_byte(), etc. 
+    //------------------------------------------------------------------------------
+    function bit[line_size-1:0] get_entry(ulint idx);
+        parameter RAND_WIDTH = 32;
+        parameter RQ_ENTRY_WIDTH = 64;
+        hca_mem_line #(line_size) hit;
+        hca_mem_line #(line_size) unhit;
+        //rand bit[line_size-1:0] d_init;
+        //rand bit[line_size-1:0] d_tmp;
+        bit[line_size-1:0] d_init;
+        bit[line_size-1:0] d_tmp;
+        uint quotient;
+        uint remainder;
+        uint rq_entry_quotient;
+        uint rq_entry_remainder;
+        uint byte_idx_bits;
+
+        // `CHPP_ERR_ASSERT(this_typ, (line_size > RAND_WIDTH))
+        // `CHPP_ERR_ASSERT(this_typ, (line_size > RQ_ENTRY_WIDTH))
+
+        quotient = uint'(line_size / RAND_WIDTH);
+        remainder = uint'(line_size % RAND_WIDTH);
+        // rq_entry_quotient = uint'(line_size / RQ_ENTRY_WIDTH);
+        // rq_entry_remainder = uint'(line_size % RQ_ENTRY_WIDTH);
+
+        // byte_idx_bits = math.log_func(line_size/`BYTE_BIT_WIDTH); // index of line size in bytes
+
+        // hit case
+        hit = hca_mem_line #(line_size)::type_id::create("hit");
+        foreach (entries[i]) begin
+            if (entries[i].idx == idx) begin
+                //if (i != 0) begin
+                // `uvm_info("NOTICE", $sformatf("HIT!"), UVM_LOW);
+                hit = entries[i];
+                entries.delete(i);
+                entries.push_back(hit);
+                //end
+                return hit.value;
+            end
+        end
+        // `uvm_info("NOTICE", $sformatf("UNHIT! index: %h", idx), UVM_LOW);
+        // unhit case
+        unhit = hca_mem_line#(line_size)::type_id::create("unhit");
+        if (remainder == 0) begin
+            d_init = {quotient{$urandom()}};
+            // d_init = 0;
+            unhit.idx = idx;
+            unhit.value = d_init;
+        end
+        else begin
+            d_tmp = $urandom() & {remainder{1'b1}};
+            d_init = {d_tmp, {quotient{$urandom()}}};
+            // d_tmp = 0;
+            // d_init = 0;
+            unhit.idx = idx;
+            unhit.value = d_init;
+        end
+        add_entry(idx, unhit.value);
+        return unhit.value;
+    endfunction : get_entry
+
+    //------------------------------------------------------------------------------
+    // function name : get_hspeed_entry
+    // function      : get one memory line with high speed 
+    // invoked       : be invoked by function hspeed_read_byte(), etc. 
+    //------------------------------------------------------------------------------
+    function bit[line_size-1:0] get_hspeed_entry(ulint idx);
+        hspeed_entry.idx = idx;
+        hspeed_entry.value = {(idx+9)*idx, (idx+6)*idx}; // value is tied with address
+        return hspeed_entry.value;
+    endfunction : get_hspeed_entry
+
+endclass : hca_mem_cache
+
+
+//------------------------------------------------------------------------------
+//
+// CLASS: hca_mem_line
+//
+//------------------------------------------------------------------------------
+
+class hca_mem_line #(uint line_size=`MEM_LINE_SIZE) extends uvm_object;
+    typedef hca_mem_line #(line_size) this_typ;
+
+    // index and cache line
+    ulint idx;
+    bit [line_size-1:0] value;
+
+    // provide implementations of virtual methods such as get_type_name and create
+    `uvm_object_param_utils_begin(hca_mem_line #(line_size))
+        `uvm_field_int(idx, UVM_DEFAULT|UVM_DEC)
+        `uvm_field_int(value, UVM_DEFAULT|UVM_HEX)
+    `uvm_object_utils_end
+
+    // functions and tasks
+    //------------------------------------------------------------------------------
+    // function name : new
+    // function      : constructor
+    // invoked       : be invoked when instantiates hca_mem_line
+    //------------------------------------------------------------------------------
+    function new(string name = "hca_mem_line");
+        super.new(name);
+    endfunction
+
+endclass : hca_mem_line
+
+`endif
