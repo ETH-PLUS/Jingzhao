@@ -1,0 +1,19 @@
+-F ./OoOStation/ooo_station.f
+./DynamicBuffer.v
+./DynamicMultiQueue.v
+./EgressArbiter.v
+./EgressPacketGen.v
+./GatherData.v
+./ScatterData.v
+//./IngressDispatcher.v
+//./IngressPacketGen.v
+./PacketEncap.v
+./PacketDecap.v
+./DynamicBufferInsertArbiter.v
+./DynamicBufferDeleteArbiter.v
+./TXArbiter.v
+./RXDispatcher.v
+./DMAWrChannel.v
+./DMARdChannel.v
+./MACEncap.v
+./MACDecap.v
