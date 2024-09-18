@@ -1,0 +1,65 @@
+# -*- mode:python -*-
+# 
+# ======================= START OF LICENSE NOTICE =======================
+#   Copyright (C) 2021 Kang Ning, NCIC, ICT, CAS.
+#   All Rights Reserved.
+# 
+#   NO WARRANTY. THE PRODUCT IS PROVIDED BY DEVELOPER "AS IS" AND ANY
+#   EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+#   IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+#   PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL DEVELOPER BE LIABLE FOR
+#   ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+#   DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+#   GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+#   INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER
+#   IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+#   OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THE PRODUCT, EVEN
+#   IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+# ======================== END OF LICENSE NOTICE ========================
+#   Primary Author: Kang Ning
+#       <kangning18z@ict.ac.cn>
+#   Date: 2021.07.08
+
+# 
+# @file
+# Han Gu RNIC register defination declaration.
+# 
+
+Import('*')
+
+SimObject('Rnic.py')
+
+# Basic Ethernet infrastructure
+Source('rdma_nic.cc')
+
+# An implementation of HanGu RNIC.
+Source('hangu_rnic.cc')
+
+# The implementation of HanGu driver
+Source('hangu_driver.cc')
+
+Source('cqc_module.cc')
+Source('qpc_module.cc')
+Source('rdma_engine.cc')
+Source('desc_scheduler.cc')
+Source('hangu_cache.cc')
+Source('resc_cache.cc')
+Source('hangu_dma_engine.cc')
+Source('mr_module.cc')
+Source('pending_struct.cc')
+
+DebugFlag('HanGuDriver')
+
+DebugFlag('HanGuRnic')
+DebugFlag('PioEngine')
+DebugFlag('CcuEngine')
+DebugFlag('DmaEngine')
+DebugFlag('RescCache')
+DebugFlag('CxtResc')
+DebugFlag('RdmaEngine')
+DebugFlag('MrResc')
+
+DebugFlag('DescScheduler')
+
+CompoundFlag('HanGu', ['HanGuDriver', 'HanGuRnic', 'PioEngine', 'CcuEngine', 'RescCache', 'CxtResc', 'DmaEngine',
+    'RdmaEngine', 'MrResc', 'DescScheduler'])

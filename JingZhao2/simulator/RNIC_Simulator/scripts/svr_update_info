@@ -1,0 +1,768 @@
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x21
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7ecd000 cr_info[i].rkey 0x4 dest_info[i] 11
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x21
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7ecd000 cr_info[i].rkey 0x40004 dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x21
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7ecd000 cr_info[i].rkey 0x20004 dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x21
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x21
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7ecd000 cr_info[i].rkey 0x60004 dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7ecd000 cr_info[i].rkey 0x70004 dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x21
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7ecd000 cr_info[i].rkey 0x50004 dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x21
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7ecd000 cr_info[i].rkey 0x30004 dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x21
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7ecd000 cr_info[i].rkey 0x10004 dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x51
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7dcb000 cr_info[i].rkey 0x16 dest_info[i] 11
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x51
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7dcb000 cr_info[i].rkey 0x40016 dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x51
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7dcb000 cr_info[i].rkey 0x20016 dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x51
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7dcb000 cr_info[i].rkey 0x60016 dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x51
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7dcb000 cr_info[i].rkey 0x50016 dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x51
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7dcb000 cr_info[i].rkey 0x70016 dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x51
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7dcb000 cr_info[i].rkey 0x10016 dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x51
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7dcb000 cr_info[i].rkey 0x30016 dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7cc9000 cr_info[i].rkey 0x28 dest_info[i] 11
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x61
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7cc9000 cr_info[i].rkey 0x40028 dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x61
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7cc9000 cr_info[i].rkey 0x60028 dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x61
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7cc9000 cr_info[i].rkey 0x20028 dest_info[i] 11
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7cc9000 cr_info[i].rkey 0x50028 dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x61
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7cc9000 cr_info[i].rkey 0x10028 dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7cc9000 cr_info[i].rkey 0x70028 dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x61
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7cc9000 cr_info[i].rkey 0x30028 dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7bc7000 cr_info[i].rkey 0x3a dest_info[i] 11
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x61
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7bc7000 cr_info[i].rkey 0x4003a dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x61
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7bc7000 cr_info[i].rkey 0x6003a dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7bc7000 cr_info[i].rkey 0x2003a dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x61
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7bc7000 cr_info[i].rkey 0x5003a dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7bc7000 cr_info[i].rkey 0x7003a dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x61
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7bc7000 cr_info[i].rkey 0x1003a dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x61
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7bc7000 cr_info[i].rkey 0x3003a dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7ac5000 cr_info[i].rkey 0x4c dest_info[i] 11
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x61
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7ac5000 cr_info[i].rkey 0x4004c dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x61
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7ac5000 cr_info[i].rkey 0x6004c dest_info[i] 11
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x61
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7ac5000 cr_info[i].rkey 0x2004c dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x61
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7ac5000 cr_info[i].rkey 0x5004c dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7ac5000 cr_info[i].rkey 0x7004c dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x61
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7ac5000 cr_info[i].rkey 0x1004c dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x61
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff7ac5000 cr_info[i].rkey 0x3004c dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0xa000a00000000, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff79c3000 cr_info[i].rkey 0x5e dest_info[i] 11
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0xa000a00040000, rkey: 0x61
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff79c3000 cr_info[i].rkey 0x4005e dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0xa000a00060000, rkey: 0x61
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff79c3000 cr_info[i].rkey 0x6005e dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0xa000a00020000, rkey: 0x61
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff79c3000 cr_info[i].rkey 0x2005e dest_info[i] 11
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0xa000a00050000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff79c3000 cr_info[i].rkey 0x5005e dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0xa000a00070000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff79c3000 cr_info[i].rkey 0x7005e dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0xa000a00010000, rkey: 0x61
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff79c3000 cr_info[i].rkey 0x1005e dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x61
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff78c1000 cr_info[i].rkey 0x70 dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0xa000a00030000, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff79c3000 cr_info[i].rkey 0x3005e dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x61
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff78c1000 cr_info[i].rkey 0x40070 dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff78c1000 cr_info[i].rkey 0x20070 dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x61
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff78c1000 cr_info[i].rkey 0x50070 dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff78c1000 cr_info[i].rkey 0x60070 dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff78c1000 cr_info[i].rkey 0x70070 dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x61
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff78c1000 cr_info[i].rkey 0x10070 dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x51
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff77bf000 cr_info[i].rkey 0x82 dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x61
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff78c1000 cr_info[i].rkey 0x30070 dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x51
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff77bf000 cr_info[i].rkey 0x40082 dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x51
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff77bf000 cr_info[i].rkey 0x20082 dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x51
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff77bf000 cr_info[i].rkey 0x50082 dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x51
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff77bf000 cr_info[i].rkey 0x70082 dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x51
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff77bf000 cr_info[i].rkey 0x60082 dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x51
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff77bf000 cr_info[i].rkey 0x10082 dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff76bd000 cr_info[i].rkey 0x94 dest_info[i] 11
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x51
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff77bf000 cr_info[i].rkey 0x30082 dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x61
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff76bd000 cr_info[i].rkey 0x40094 dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x61
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff76bd000 cr_info[i].rkey 0x20094 dest_info[i] 11
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff76bd000 cr_info[i].rkey 0x50094 dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x61
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff76bd000 cr_info[i].rkey 0x10094 dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff76bd000 cr_info[i].rkey 0x70094 dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff76bd000 cr_info[i].rkey 0x60094 dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff75bb000 cr_info[i].rkey 0xa6 dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x61
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff76bd000 cr_info[i].rkey 0x30094 dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x61
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff75bb000 cr_info[i].rkey 0x400a6 dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff75bb000 cr_info[i].rkey 0x200a6 dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x61
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff75bb000 cr_info[i].rkey 0x500a6 dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x61
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff75bb000 cr_info[i].rkey 0x100a6 dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff75bb000 cr_info[i].rkey 0x700a6 dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x61
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x61
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff75bb000 cr_info[i].rkey 0x600a6 dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff75bb000 cr_info[i].rkey 0x300a6 dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff74b9000 cr_info[i].rkey 0xb8 dest_info[i] 11
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x61
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff74b9000 cr_info[i].rkey 0x400b8 dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x61
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff74b9000 cr_info[i].rkey 0x200b8 dest_info[i] 11
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff74b9000 cr_info[i].rkey 0x500b8 dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x61
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff74b9000 cr_info[i].rkey 0x100b8 dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x61
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff74b9000 cr_info[i].rkey 0x300b8 dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff74b9000 cr_info[i].rkey 0x700b8 dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x61
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff74b9000 cr_info[i].rkey 0x600b8 dest_info[i] 11
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff73b7000 cr_info[i].rkey 0xca dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x61
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff73b7000 cr_info[i].rkey 0x400ca dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x61
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff73b7000 cr_info[i].rkey 0x200ca dest_info[i] 11
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff73b7000 cr_info[i].rkey 0x500ca dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x61
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff73b7000 cr_info[i].rkey 0x100ca dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x61
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff73b7000 cr_info[i].rkey 0x300ca dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff73b7000 cr_info[i].rkey 0x700ca dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x61
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff73b7000 cr_info[i].rkey 0x600ca dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff72b5000 cr_info[i].rkey 0xdc dest_info[i] 11
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x61
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff72b5000 cr_info[i].rkey 0x400dc dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x61
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff72b5000 cr_info[i].rkey 0x200dc dest_info[i] 11
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff72b5000 cr_info[i].rkey 0x500dc dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x61
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff72b5000 cr_info[i].rkey 0x100dc dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x61
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff72b5000 cr_info[i].rkey 0x300dc dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x61
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff72b5000 cr_info[i].rkey 0x700dc dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff72b5000 cr_info[i].rkey 0x600dc dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff71b3000 cr_info[i].rkey 0xee dest_info[i] 11
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x61
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff71b3000 cr_info[i].rkey 0x400ee dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x61
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff71b3000 cr_info[i].rkey 0x200ee dest_info[i] 11
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff71b3000 cr_info[i].rkey 0x500ee dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x61
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff71b3000 cr_info[i].rkey 0x100ee dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x61
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x61
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff71b3000 cr_info[i].rkey 0x600ee dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff71b3000 cr_info[i].rkey 0x300ee dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff71b3000 cr_info[i].rkey 0x700ee dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff70b1000 cr_info[i].rkey 0x100 dest_info[i] 11
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x61
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff70b1000 cr_info[i].rkey 0x40100 dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x61
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff70b1000 cr_info[i].rkey 0x20100 dest_info[i] 11
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff70b1000 cr_info[i].rkey 0x50100 dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x61
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff70b1000 cr_info[i].rkey 0x10100 dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x61
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff70b1000 cr_info[i].rkey 0x60100 dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x61
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff70b1000 cr_info[i].rkey 0x30100 dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff70b1000 cr_info[i].rkey 0x70100 dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6faf000 cr_info[i].rkey 0x112 dest_info[i] 11
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x61
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6faf000 cr_info[i].rkey 0x40112 dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x61
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6faf000 cr_info[i].rkey 0x20112 dest_info[i] 11
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6faf000 cr_info[i].rkey 0x50112 dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x61
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6faf000 cr_info[i].rkey 0x30112 dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x61
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x61
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6faf000 cr_info[i].rkey 0x70112 dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6faf000 cr_info[i].rkey 0x10112 dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6faf000 cr_info[i].rkey 0x60112 dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ead000 cr_info[i].rkey 0x124 dest_info[i] 11
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x61
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ead000 cr_info[i].rkey 0x40124 dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ead000 cr_info[i].rkey 0x20124 dest_info[i] 11
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ead000 cr_info[i].rkey 0x50124 dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ead000 cr_info[i].rkey 0x70124 dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x61
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x61
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ead000 cr_info[i].rkey 0x30124 dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ead000 cr_info[i].rkey 0x10124 dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x61
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ead000 cr_info[i].rkey 0x60124 dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6dab000 cr_info[i].rkey 0x136 dest_info[i] 11
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x61
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6dab000 cr_info[i].rkey 0x40136 dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x61
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6dab000 cr_info[i].rkey 0x20136 dest_info[i] 11
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6dab000 cr_info[i].rkey 0x50136 dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6dab000 cr_info[i].rkey 0x70136 dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x61
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6dab000 cr_info[i].rkey 0x30136 dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x61
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6dab000 cr_info[i].rkey 0x10136 dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x61
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6dab000 cr_info[i].rkey 0x60136 dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ca9000 cr_info[i].rkey 0x148 dest_info[i] 11
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x61
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ca9000 cr_info[i].rkey 0x40148 dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x61
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ca9000 cr_info[i].rkey 0x20148 dest_info[i] 11
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ca9000 cr_info[i].rkey 0x50148 dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x61
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ca9000 cr_info[i].rkey 0x30148 dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ca9000 cr_info[i].rkey 0x70148 dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x61
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ca9000 cr_info[i].rkey 0x10148 dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x61
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ba7000 cr_info[i].rkey 0x15a dest_info[i] 11
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ca9000 cr_info[i].rkey 0x60148 dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x61
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ba7000 cr_info[i].rkey 0x4015a dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x61
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ba7000 cr_info[i].rkey 0x2015a dest_info[i] 11
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ba7000 cr_info[i].rkey 0x5015a dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x61
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ba7000 cr_info[i].rkey 0x3015a dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ba7000 cr_info[i].rkey 0x7015a dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x61
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ba7000 cr_info[i].rkey 0x1015a dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x61
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6ba7000 cr_info[i].rkey 0x6015a dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6aa5000 cr_info[i].rkey 0x16c dest_info[i] 11
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x61
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6aa5000 cr_info[i].rkey 0x4016c dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x61
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6aa5000 cr_info[i].rkey 0x2016c dest_info[i] 11
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6aa5000 cr_info[i].rkey 0x5016c dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6aa5000 cr_info[i].rkey 0x7016c dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x61
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x61
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6aa5000 cr_info[i].rkey 0x1016c dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6aa5000 cr_info[i].rkey 0x3016c dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff6aa5000 cr_info[i].rkey 0x6016c dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff69a3000 cr_info[i].rkey 0x17e dest_info[i] 11
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x61
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff69a3000 cr_info[i].rkey 0x4017e dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x61
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff69a3000 cr_info[i].rkey 0x2017e dest_info[i] 11
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff69a3000 cr_info[i].rkey 0x5017e dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff69a3000 cr_info[i].rkey 0x7017e dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x61
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x61
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff69a3000 cr_info[i].rkey 0x3017e dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff69a3000 cr_info[i].rkey 0x1017e dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x61
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff68a1000 cr_info[i].rkey 0x190 dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x61
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff69a3000 cr_info[i].rkey 0x6017e dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x61
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff68a1000 cr_info[i].rkey 0x40190 dest_info[i] 11
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x61
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff68a1000 cr_info[i].rkey 0x20190 dest_info[i] 11
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x61
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff68a1000 cr_info[i].rkey 0x50190 dest_info[i] 11
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x61
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff68a1000 cr_info[i].rkey 0x70190 dest_info[i] 11
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x61
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x61
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff68a1000 cr_info[i].rkey 0x10190 dest_info[i] 11
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff68a1000 cr_info[i].rkey 0x30190 dest_info[i] 11
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-0] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-0] svr_update_info: receive cr info! dlid: 0, raddr: 0x0, rkey: 0x21
+[SERVER: Server10-0] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff679f000 cr_info[i].rkey 0x1a2 dest_info[i] 0
+[SERVER: Server10-0] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x61
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff68a1000 cr_info[i].rkey 0x60190 dest_info[i] 11
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-4] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-4] svr_update_info: receive cr info! dlid: 0, raddr: 0x40000, rkey: 0x21
+[SERVER: Server10-4] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff679f000 cr_info[i].rkey 0x401a2 dest_info[i] 0
+[SERVER: Server10-4] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-2] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-2] svr_update_info: receive cr info! dlid: 0, raddr: 0x20000, rkey: 0x21
+[SERVER: Server10-2] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff679f000 cr_info[i].rkey 0x201a2 dest_info[i] 0
+[SERVER: Server10-2] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-5] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-5] svr_update_info: receive cr info! dlid: 0, raddr: 0x50000, rkey: 0x21
+[SERVER: Server10-5] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff679f000 cr_info[i].rkey 0x501a2 dest_info[i] 0
+[SERVER: Server10-5] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-7] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-7] svr_update_info: receive cr info! dlid: 0, raddr: 0x70000, rkey: 0x21
+[SERVER: Server10-7] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff679f000 cr_info[i].rkey 0x701a2 dest_info[i] 0
+[SERVER: Server10-7] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-1] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: receive cr info! dlid: 0, raddr: 0x10000, rkey: 0x21
+[SERVER: Server10-3] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-1] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff679f000 cr_info[i].rkey 0x101a2 dest_info[i] 0
+[SERVER: Server10-1] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-3] svr_update_info: receive cr info! dlid: 0, raddr: 0x30000, rkey: 0x21
+[SERVER: Server10-3] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff679f000 cr_info[i].rkey 0x301a2 dest_info[i] 0
+[SERVER: Server10-3] svr_update_info: start rdma_connect, sum 1
+[SERVER: Server10-6] svr_update_info: rdma_listen end, Polled 1 CR data
+[SERVER: Server10-6] svr_update_info: receive cr info! dlid: 0, raddr: 0x60000, rkey: 0x21
+[SERVER: Server10-6] svr_update_info: sum: 1 resc_num_rem: 1, cr_info[i].raddr: 0x7ffff679f000 cr_info[i].rkey 0x601a2 dest_info[i] 0
+[SERVER: Server10-6] svr_update_info: start rdma_connect, sum 1

@@ -1,0 +1,1145 @@
+613910072: etherswitch.interface1: adding forwarding table entry for MAC  address b on port etherswitch.interface1
+613910072: etherswitch.interface1: no entry in forwaring table for MAC: a
+613913913: etherswitch.interface0: packet sent: len=76
+631451072: etherswitch.interface0: adding forwarding table entry for MAC  address a on port etherswitch.interface0
+631451072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+631451072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+631454913: etherswitch.interface1: packet sent: len=76
+672681822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+672681822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+672685663: etherswitch.interface0: packet sent: len=76
+675465822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+675465822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+675469663: etherswitch.interface0: packet sent: len=76
+678233322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+678233322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+678237163: etherswitch.interface0: packet sent: len=76
+681001822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+681001822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+681005663: etherswitch.interface0: packet sent: len=76
+683768322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+683768322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+683772163: etherswitch.interface0: packet sent: len=76
+686535322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+686535322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+686539163: etherswitch.interface0: packet sent: len=76
+689301822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+689301822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+689305663: etherswitch.interface0: packet sent: len=76
+690298072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+690298072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+690301913: etherswitch.interface1: packet sent: len=76
+695287072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+695287072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+695290913: etherswitch.interface1: packet sent: len=76
+698054572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+698054572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+698058413: etherswitch.interface1: packet sent: len=76
+698609572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+698609572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+698613413: etherswitch.interface1: packet sent: len=76
+701385072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+701385072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+701388913: etherswitch.interface1: packet sent: len=76
+704150572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+704150572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+704154413: etherswitch.interface1: packet sent: len=76
+706917072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+706917072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+706920913: etherswitch.interface1: packet sent: len=76
+859596822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+859596822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+859600663: etherswitch.interface0: packet sent: len=76
+877093322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+877093322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+877097163: etherswitch.interface1: packet sent: len=76
+902922572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+902922572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+902926413: etherswitch.interface0: packet sent: len=76
+938894322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+938894322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+938898163: etherswitch.interface0: packet sent: len=76
+943867572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+943867572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+943871413: etherswitch.interface0: packet sent: len=76
+946638072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+946638072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+946641913: etherswitch.interface0: packet sent: len=76
+947082322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+947082322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+947086163: etherswitch.interface0: packet sent: len=76
+953835322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+953835322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+953839163: etherswitch.interface1: packet sent: len=76
+958280822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+958280822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+958284663: etherswitch.interface0: packet sent: len=76
+961049322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+961049322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+961053163: etherswitch.interface0: packet sent: len=76
+961458322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+961458322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+961462163: etherswitch.interface1: packet sent: len=76
+964211822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+964211822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+964215663: etherswitch.interface1: packet sent: len=76
+975883822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+975883822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+975887663: etherswitch.interface1: packet sent: len=76
+989815322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+989815322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+989819163: etherswitch.interface1: packet sent: len=76
+995356822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+995356822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+995360663: etherswitch.interface1: packet sent: len=76
+998123822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+998123822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+998127663: etherswitch.interface1: packet sent: len=76
+1088259072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1088259072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1088262913: etherswitch.interface0: packet sent: len=76
+1106386322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1106386322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1106390163: etherswitch.interface1: packet sent: len=76
+1163110822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1163110822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1163114663: etherswitch.interface0: packet sent: len=76
+1189704322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1189704322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1189708163: etherswitch.interface1: packet sent: len=76
+1195624822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1195624822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1195628663: etherswitch.interface0: packet sent: len=76
+1201177322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1201177322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1201181163: etherswitch.interface0: packet sent: len=76
+1215567072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1215567072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1215570913: etherswitch.interface0: packet sent: len=76
+1218352572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1218352572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1218356413: etherswitch.interface0: packet sent: len=76
+1222212822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1222212822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1222216663: etherswitch.interface1: packet sent: len=76
+1224004822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1224004822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1224008663: etherswitch.interface0: packet sent: len=76
+1227760322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1227760322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1227764163: etherswitch.interface1: packet sent: len=76
+1232327822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1232327822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1232331663: etherswitch.interface0: packet sent: len=76
+1236079322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1236079322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1236083163: etherswitch.interface1: packet sent: len=76
+1247825822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1247825822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1247829663: etherswitch.interface1: packet sent: len=76
+1250070322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1250070322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1250074163: etherswitch.interface1: packet sent: len=76
+1269956322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1269956322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1269960163: etherswitch.interface1: packet sent: len=76
+1315005072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1315005072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1315008913: etherswitch.interface0: packet sent: len=76
+1332642322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1332642322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1332646163: etherswitch.interface1: packet sent: len=76
+1396429822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1396429822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1396433663: etherswitch.interface0: packet sent: len=76
+1433474822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1433474822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1433478663: etherswitch.interface1: packet sent: len=76
+1453790072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1453790072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1453793913: etherswitch.interface0: packet sent: len=76
+1462109072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1462109072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1462112913: etherswitch.interface0: packet sent: len=76
+1464887072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1464887072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1464890913: etherswitch.interface0: packet sent: len=76
+1467819322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1467819322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1467823163: etherswitch.interface0: packet sent: len=76
+1471505322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1471505322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1471509163: etherswitch.interface1: packet sent: len=76
+1479830322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1479830322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1479834163: etherswitch.interface1: packet sent: len=76
+1482616822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1482616822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1482620663: etherswitch.interface1: packet sent: len=76
+1490351572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1490351572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1490355413: etherswitch.interface0: packet sent: len=76
+1493235572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1493235572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1493239413: etherswitch.interface0: packet sent: len=76
+1496605322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1496605322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1496609163: etherswitch.interface1: packet sent: len=76
+1508076822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1508076822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1508080663: etherswitch.interface1: packet sent: len=76
+1510956322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1510956322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1510960163: etherswitch.interface1: packet sent: len=76
+1549034822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1549034822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1549038663: etherswitch.interface0: packet sent: len=76
+1570195572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1570195572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1570199413: etherswitch.interface1: packet sent: len=76
+1656254072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1656254072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1656257913: etherswitch.interface0: packet sent: len=76
+1683032072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1683032072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1683035913: etherswitch.interface1: packet sent: len=76
+1702572322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1702572322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1702576163: etherswitch.interface0: packet sent: len=76
+1705359322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1705359322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1705363163: etherswitch.interface0: packet sent: len=76
+1708158322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1708158322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1708162163: etherswitch.interface0: packet sent: len=76
+1716613072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1716613072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1716616913: etherswitch.interface0: packet sent: len=76
+1720247072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1720247072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1720250913: etherswitch.interface1: packet sent: len=76
+1723040072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1723040072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1723043913: etherswitch.interface1: packet sent: len=76
+1725831572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1725831572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1725835413: etherswitch.interface1: packet sent: len=76
+1730701822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1730701822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1730705663: etherswitch.interface0: packet sent: len=76
+1733718822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1733718822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1733722663: etherswitch.interface0: packet sent: len=76
+1734286572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1734286572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1734290413: etherswitch.interface1: packet sent: len=76
+1763167072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1763167072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1763170913: etherswitch.interface1: packet sent: len=76
+1782542072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1782542072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1782545913: etherswitch.interface0: packet sent: len=76
+1790947572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1790947572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1790951413: etherswitch.interface1: packet sent: len=76
+1800208072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1800208072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1800211913: etherswitch.interface1: packet sent: len=76
+1890720322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1890720322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1890724163: etherswitch.interface0: packet sent: len=76
+1921724822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1921724822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1921728663: etherswitch.interface1: packet sent: len=76
+1952844072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1952844072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1952847913: etherswitch.interface0: packet sent: len=76
+1955631572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1955631572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1955635413: etherswitch.interface0: packet sent: len=76
+1963963572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1963963572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1963967413: etherswitch.interface0: packet sent: len=76
+1970566822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1970566822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1970570663: etherswitch.interface1: packet sent: len=76
+1978328822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1978328822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1978332663: etherswitch.interface1: packet sent: len=76
+1983482322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1983482322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1983486163: etherswitch.interface0: packet sent: len=76
+1983888822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+1983888822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+1983892663: etherswitch.interface1: packet sent: len=76
+1995620822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+1995620822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+1995624663: etherswitch.interface0: packet sent: len=76
+2001211822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2001211822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2001215663: etherswitch.interface1: packet sent: len=76
+2012462822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2012462822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2012466663: etherswitch.interface0: packet sent: len=76
+2013340822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2013340822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2013344663: etherswitch.interface1: packet sent: len=76
+2017311072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2017311072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2017314913: etherswitch.interface0: packet sent: len=76
+2037317572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2037317572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2037321413: etherswitch.interface1: packet sent: len=76
+2040705822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2040705822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2040709663: etherswitch.interface1: packet sent: len=76
+2131400072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2131400072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2131403913: etherswitch.interface0: packet sent: len=76
+2162538322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2162538322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2162542163: etherswitch.interface1: packet sent: len=76
+2201840572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2201840572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2201844413: etherswitch.interface0: packet sent: len=76
+2204632322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2204632322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2204636163: etherswitch.interface0: packet sent: len=76
+2207897572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2207897572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2207901413: etherswitch.interface0: packet sent: len=76
+2219415822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2219415822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2219419663: etherswitch.interface1: packet sent: len=76
+2222210822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2222210822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2222214663: etherswitch.interface1: packet sent: len=76
+2224725822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2224725822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2224729663: etherswitch.interface0: packet sent: len=76
+2225481322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2225481322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2225485163: etherswitch.interface1: packet sent: len=76
+2247558322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2247558322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2247562163: etherswitch.interface1: packet sent: len=76
+2247669580: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2247669580: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2247673421: etherswitch.interface0: packet sent: len=76
+2250541322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2250541322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2250545163: etherswitch.interface0: packet sent: len=76
+2264910572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2264910572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2264914413: etherswitch.interface0: packet sent: len=76
+2268119322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2268119322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2268123163: etherswitch.interface1: packet sent: len=76
+2282540822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2282540822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2282544663: etherswitch.interface1: packet sent: len=76
+2287052322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2287052322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2287056163: etherswitch.interface1: packet sent: len=76
+2393769322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2393769322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2393773163: etherswitch.interface0: packet sent: len=76
+2411501072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2411501072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2411504913: etherswitch.interface1: packet sent: len=76
+2450645072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2450645072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2450648913: etherswitch.interface0: packet sent: len=76
+2453436322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2453436322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2453440163: etherswitch.interface0: packet sent: len=76
+2468367072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2468367072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2468370913: etherswitch.interface1: packet sent: len=76
+2470487072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2470487072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2470490913: etherswitch.interface0: packet sent: len=76
+2471167072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2471167072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2471170913: etherswitch.interface1: packet sent: len=76
+2473301072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2473301072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2473304913: etherswitch.interface0: packet sent: len=76
+2485381822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2485381822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2485385663: etherswitch.interface0: packet sent: len=76
+2492452572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2492452572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2492456413: etherswitch.interface1: packet sent: len=76
+2496143322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2496143322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2496147163: etherswitch.interface0: packet sent: len=76
+2499889322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2499889322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2499893163: etherswitch.interface0: packet sent: len=76
+2500807572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2500807572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2500811413: etherswitch.interface1: packet sent: len=76
+2513015072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2513015072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2513018913: etherswitch.interface1: packet sent: len=76
+2528443822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2528443822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2528447663: etherswitch.interface1: packet sent: len=76
+2537481572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2537481572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2537485413: etherswitch.interface1: packet sent: len=76
+2618626072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2618626072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2618629913: etherswitch.interface0: packet sent: len=76
+2650044572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2650044572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2650048413: etherswitch.interface1: packet sent: len=76
+2700374822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2700374822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2700378663: etherswitch.interface0: packet sent: len=76
+2705956572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2705956572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2705960413: etherswitch.interface0: packet sent: len=76
+2718058572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2718058572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2718062413: etherswitch.interface1: packet sent: len=76
+2723643072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2723643072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2723646913: etherswitch.interface1: packet sent: len=76
+2725524572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2725524572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2725528413: etherswitch.interface0: packet sent: len=76
+2738291572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2738291572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2738295413: etherswitch.interface0: packet sent: len=76
+2739899822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2739899822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2739903663: etherswitch.interface0: packet sent: len=76
+2741124072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2741124072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2741127913: etherswitch.interface0: packet sent: len=76
+2750137822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2750137822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2750141663: etherswitch.interface0: packet sent: len=76
+2754325572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2754325572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2754329413: etherswitch.interface1: packet sent: len=76
+2755987572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2755987572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2755991413: etherswitch.interface1: packet sent: len=76
+2758810572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2758810572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2758814413: etherswitch.interface1: packet sent: len=76
+2774492822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2774492822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2774496663: etherswitch.interface1: packet sent: len=76
+2778792072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2778792072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2778795913: etherswitch.interface1: packet sent: len=76
+2862331822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2862331822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2862335663: etherswitch.interface0: packet sent: len=76
+2885969072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2885969072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2885972913: etherswitch.interface1: packet sent: len=76
+2941425322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2941425322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2941429163: etherswitch.interface0: packet sent: len=76
+2944241572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2944241572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2944245413: etherswitch.interface0: packet sent: len=76
+2959168572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2959168572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2959172413: etherswitch.interface1: packet sent: len=76
+2961991072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2961991072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2961994913: etherswitch.interface1: packet sent: len=76
+2963710572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2963710572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2963714413: etherswitch.interface0: packet sent: len=76
+2979342572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2979342572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2979346413: etherswitch.interface0: packet sent: len=76
+2987483572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2987483572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2987487413: etherswitch.interface1: packet sent: len=76
+2993240072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2993240072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2993243913: etherswitch.interface0: packet sent: len=76
+2993856822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2993856822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2993860663: etherswitch.interface0: packet sent: len=76
+2997102072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+2997102072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+2997105913: etherswitch.interface1: packet sent: len=76
+2999628072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+2999628072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+2999631913: etherswitch.interface0: packet sent: len=76
+3010990072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3010990072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3010993913: etherswitch.interface1: packet sent: len=76
+3011949572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3011949572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3011953413: etherswitch.interface1: packet sent: len=76
+3017272612: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3017272612: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3017276453: etherswitch.interface1: packet sent: len=76
+3103693572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3103693572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3103697413: etherswitch.interface0: packet sent: len=76
+3121464322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3121464322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3121468163: etherswitch.interface1: packet sent: len=76
+3179639572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3179639572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3179643413: etherswitch.interface0: packet sent: len=76
+3190776322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3190776322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3190780163: etherswitch.interface0: packet sent: len=76
+3197364822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3197364822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3197368663: etherswitch.interface1: packet sent: len=76
+3208499322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3208499322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3208503163: etherswitch.interface1: packet sent: len=76
+3210604822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3210604822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3210608663: etherswitch.interface0: packet sent: len=76
+3221363822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3221363822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3221367663: etherswitch.interface0: packet sent: len=76
+3231410322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3231410322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3231414163: etherswitch.interface0: packet sent: len=76
+3234567822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3234567822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3234571663: etherswitch.interface1: packet sent: len=76
+3236758572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3236758572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3236762413: etherswitch.interface0: packet sent: len=76
+3239775322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3239775322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3239779163: etherswitch.interface0: packet sent: len=76
+3242434322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3242434322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3242438163: etherswitch.interface1: packet sent: len=76
+3249136322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3249136322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3249140163: etherswitch.interface1: packet sent: len=76
+3257511822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3257511822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3257515663: etherswitch.interface1: packet sent: len=76
+3258173822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3258173822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3258177663: etherswitch.interface1: packet sent: len=76
+3330722572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3330722572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3330726413: etherswitch.interface0: packet sent: len=76
+3349497072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3349497072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3349500913: etherswitch.interface1: packet sent: len=76
+3420455072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3420455072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3420458913: etherswitch.interface0: packet sent: len=76
+3434358822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3434358822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3434362663: etherswitch.interface0: packet sent: len=76
+3439229072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3439229072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3439232913: etherswitch.interface1: packet sent: len=76
+3452023572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3452023572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3452027413: etherswitch.interface0: packet sent: len=76
+3452063072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3452063072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3452066913: etherswitch.interface1: packet sent: len=76
+3465557072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3465557072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3465560913: etherswitch.interface0: packet sent: len=76
+3470916072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3470916072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3470919913: etherswitch.interface1: packet sent: len=76
+3472241822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3472241822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3472245663: etherswitch.interface0: packet sent: len=76
+3477956612: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3477956612: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3477960453: etherswitch.interface0: packet sent: len=76
+3483248072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3483248072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3483251913: etherswitch.interface1: packet sent: len=76
+3491017072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3491017072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3491020913: etherswitch.interface1: packet sent: len=76
+3495661072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3495661072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3495664913: etherswitch.interface1: packet sent: len=76
+3497976322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3497976322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3497980163: etherswitch.interface0: packet sent: len=76
+3515594322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3515594322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3515598163: etherswitch.interface1: packet sent: len=76
+3565276072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3565276072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3565279913: etherswitch.interface0: packet sent: len=76
+3588384572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3588384572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3588388413: etherswitch.interface1: packet sent: len=76
+3649476072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3649476072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3649479913: etherswitch.interface0: packet sent: len=76
+3667831322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3667831322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3667835163: etherswitch.interface0: packet sent: len=76
+3672585072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3672585072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3672588913: etherswitch.interface1: packet sent: len=76
+3685545572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3685545572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3685549413: etherswitch.interface1: packet sent: len=76
+3694861322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3694861322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3694865163: etherswitch.interface0: packet sent: len=76
+3707335822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3707335822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3707339663: etherswitch.interface0: packet sent: len=76
+3715103072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3715103072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3715106913: etherswitch.interface0: packet sent: len=76
+3715419072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3715419072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3715422913: etherswitch.interface1: packet sent: len=76
+3717054572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3717054572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3717058413: etherswitch.interface0: packet sent: len=76
+3725047572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3725047572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3725051413: etherswitch.interface1: packet sent: len=76
+3732816072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3732816072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3732819913: etherswitch.interface1: packet sent: len=76
+3734763572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3734763572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3734767413: etherswitch.interface1: packet sent: len=76
+3735592072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3735592072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3735595913: etherswitch.interface0: packet sent: len=76
+3753576072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3753576072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3753579913: etherswitch.interface1: packet sent: len=76
+3800870322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3800870322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3800874163: etherswitch.interface0: packet sent: len=76
+3818608822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3818608822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3818612663: etherswitch.interface1: packet sent: len=76
+3890602822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3890602822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3890606663: etherswitch.interface0: packet sent: len=76
+3900802322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3900802322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3900806163: etherswitch.interface0: packet sent: len=76
+3908738822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3908738822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3908742663: etherswitch.interface1: packet sent: len=76
+3918530822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3918530822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3918534663: etherswitch.interface1: packet sent: len=76
+3936073572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3936073572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3936077413: etherswitch.interface0: packet sent: len=76
+3950026572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3950026572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3950030413: etherswitch.interface0: packet sent: len=76
+3951371822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3951371822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3951375663: etherswitch.interface0: packet sent: len=76
+3953826322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3953826322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3953830163: etherswitch.interface1: packet sent: len=76
+3959140072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3959140072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3959143913: etherswitch.interface0: packet sent: len=76
+3967765822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3967765822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3967769663: etherswitch.interface1: packet sent: len=76
+3969092322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3969092322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3969096163: etherswitch.interface1: packet sent: len=76
+3979439822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+3979439822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+3979443663: etherswitch.interface0: packet sent: len=76
+3985565822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+3985565822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+3985569663: etherswitch.interface1: packet sent: len=76
+4006400572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4006400572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4006404413: etherswitch.interface1: packet sent: len=76
+4034141822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4034141822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4034145663: etherswitch.interface0: packet sent: len=76
+4055761822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4055761822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4055765663: etherswitch.interface1: packet sent: len=76
+4124276572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4124276572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4124280413: etherswitch.interface0: packet sent: len=76
+4145138822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4145138822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4145142663: etherswitch.interface0: packet sent: len=76
+4154189322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4154189322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4154193163: etherswitch.interface1: packet sent: len=76
+4162908322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4162908322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4162912163: etherswitch.interface1: packet sent: len=76
+4183066572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4183066572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4183070413: etherswitch.interface0: packet sent: len=76
+4188831572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4188831572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4188835413: etherswitch.interface0: packet sent: len=76
+4198452322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4198452322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4198456163: etherswitch.interface0: packet sent: len=76
+4200827822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4200827822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4200831663: etherswitch.interface1: packet sent: len=76
+4206606822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4206606822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4206610663: etherswitch.interface1: packet sent: len=76
+4209399822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4209399822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4209403663: etherswitch.interface0: packet sent: len=76
+4217309322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4217309322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4217313163: etherswitch.interface1: packet sent: len=76
+4228251322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4228251322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4228255163: etherswitch.interface1: packet sent: len=76
+4231944072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4231944072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4231947913: etherswitch.interface0: packet sent: len=76
+4249590322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4249590322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4249594163: etherswitch.interface1: packet sent: len=76
+4279243572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4279243572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4279247413: etherswitch.interface0: packet sent: len=76
+4296977072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4296977072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4296980913: etherswitch.interface1: packet sent: len=76
+4380431322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4380431322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4380435163: etherswitch.interface0: packet sent: len=76
+4391917322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4391917322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4391921163: etherswitch.interface0: packet sent: len=76
+4399511572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4399511572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4399515413: etherswitch.interface1: packet sent: len=76
+4410996572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4410996572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4411000413: etherswitch.interface1: packet sent: len=76
+4437895322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4437895322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4437899163: etherswitch.interface0: packet sent: len=76
+4440778572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4440778572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4440782413: etherswitch.interface0: packet sent: len=76
+4443567322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4443567322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4443571163: etherswitch.interface0: packet sent: len=76
+4449465072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4449465072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4449468913: etherswitch.interface0: packet sent: len=76
+4461309072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4461309072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4461312913: etherswitch.interface1: packet sent: len=76
+4465275072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4465275072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4465278913: etherswitch.interface1: packet sent: len=76
+4465512572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4465512572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4465516413: etherswitch.interface1: packet sent: len=76
+4467214572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4467214572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4467218413: etherswitch.interface1: packet sent: len=76
+4489486322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4489486322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4489490163: etherswitch.interface0: packet sent: len=76
+4507161322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4507161322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4507165163: etherswitch.interface1: packet sent: len=76
+4523734822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4523734822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4523738663: etherswitch.interface0: packet sent: len=76
+4541449072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4541449072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4541452913: etherswitch.interface1: packet sent: len=76
+4623506822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4623506822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4623510663: etherswitch.interface0: packet sent: len=76
+4626696322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4626696322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4626700163: etherswitch.interface0: packet sent: len=76
+4641233072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4641233072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4641236913: etherswitch.interface1: packet sent: len=76
+4644844072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4644844072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4644847913: etherswitch.interface1: packet sent: len=76
+4686492322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4686492322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4686496163: etherswitch.interface0: packet sent: len=76
+4690825572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4690825572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4690829413: etherswitch.interface0: packet sent: len=76
+4692133822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4692133822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4692137663: etherswitch.interface0: packet sent: len=76
+4702279822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4702279822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4702283663: etherswitch.interface0: packet sent: len=76
+4704213072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4704213072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4704216913: etherswitch.interface1: packet sent: len=76
+4708540572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4708540572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4708544413: etherswitch.interface1: packet sent: len=76
+4710425572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4710425572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4710429413: etherswitch.interface1: packet sent: len=76
+4720425072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4720425072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4720428913: etherswitch.interface1: packet sent: len=76
+4727746572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4727746572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4727750413: etherswitch.interface0: packet sent: len=76
+4745359572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4745359572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4745363413: etherswitch.interface1: packet sent: len=76
+4762755572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4762755572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4762759413: etherswitch.interface0: packet sent: len=76
+4786118822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4786118822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4786122663: etherswitch.interface1: packet sent: len=76
+4854228072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4854228072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4854231913: etherswitch.interface0: packet sent: len=76
+4857841322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4857841322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4857845163: etherswitch.interface0: packet sent: len=76
+4874837822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4874837822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4874841663: etherswitch.interface1: packet sent: len=76
+4889515322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4889515322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4889519163: etherswitch.interface1: packet sent: len=76
+4925535594: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4925535594: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4925539435: etherswitch.interface0: packet sent: len=76
+4927078822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4927078822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4927082663: etherswitch.interface0: packet sent: len=76
+4939906072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4939906072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4939909913: etherswitch.interface0: packet sent: len=76
+4941722322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4941722322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4941726163: etherswitch.interface0: packet sent: len=76
+4943244322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4943244322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4943248163: etherswitch.interface1: packet sent: len=76
+4950444322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4950444322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4950448163: etherswitch.interface1: packet sent: len=76
+4957611822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4957611822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4957615663: etherswitch.interface1: packet sent: len=76
+4968771572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+4968771572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+4968775413: etherswitch.interface0: packet sent: len=76
+4984458322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4984458322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4984462163: etherswitch.interface1: packet sent: len=76
+4986494072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+4986494072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+4986497913: etherswitch.interface1: packet sent: len=76
+5001929822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5001929822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5001933663: etherswitch.interface0: packet sent: len=76
+5025868322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5025868322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5025872163: etherswitch.interface1: packet sent: len=76
+5087883072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5087883072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5087886913: etherswitch.interface0: packet sent: len=76
+5110878072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5110878072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5110881913: etherswitch.interface0: packet sent: len=76
+5114586822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5114586822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5114590663: etherswitch.interface1: packet sent: len=76
+5129263822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5129263822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5129267663: etherswitch.interface1: packet sent: len=76
+5153538822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5153538822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5153542663: etherswitch.interface0: packet sent: len=76
+5163548562: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5163548562: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5163552403: etherswitch.interface0: packet sent: len=76
+5176077322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5176077322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5176081163: etherswitch.interface0: packet sent: len=76
+5181334822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5181334822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5181338663: etherswitch.interface1: packet sent: len=76
+5185758822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5185758822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5185762663: etherswitch.interface1: packet sent: len=76
+5197361822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5197361822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5197365663: etherswitch.interface1: packet sent: len=76
+5204392572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5204392572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5204396413: etherswitch.interface0: packet sent: len=76
+5205842322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5205842322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5205846163: etherswitch.interface0: packet sent: len=76
+5222028822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5222028822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5222032663: etherswitch.interface1: packet sent: len=76
+5223642822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5223642822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5223646663: etherswitch.interface1: packet sent: len=76
+5238963072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5238963072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5238966913: etherswitch.interface0: packet sent: len=76
+5262825072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5262825072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5262828913: etherswitch.interface1: packet sent: len=76
+5327669572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5327669572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5327673413: etherswitch.interface0: packet sent: len=76
+5350655572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5350655572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5350659413: etherswitch.interface0: packet sent: len=76
+5354310572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5354310572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5354314413: etherswitch.interface1: packet sent: len=76
+5368987572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5368987572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5368991413: etherswitch.interface1: packet sent: len=76
+5402727822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5402727822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5402731663: etherswitch.interface0: packet sent: len=76
+5407151822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5407151822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5407155663: etherswitch.interface0: packet sent: len=76
+5418635322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5418635322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5418639163: etherswitch.interface0: packet sent: len=76
+5420449072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5420449072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5420452913: etherswitch.interface1: packet sent: len=76
+5425481572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5425481572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5425485413: etherswitch.interface1: packet sent: len=76
+5437086572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5437086572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5437090413: etherswitch.interface1: packet sent: len=76
+5442076572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5442076572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5442080413: etherswitch.interface0: packet sent: len=76
+5453333322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5453333322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5453337163: etherswitch.interface0: packet sent: len=76
+5471067572: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5471067572: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5471071413: etherswitch.interface1: packet sent: len=76
+5475292822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5475292822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5475296663: etherswitch.interface0: packet sent: len=76
+5477565072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5477565072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5477568913: etherswitch.interface1: packet sent: len=76
+5510918822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5510918822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5510922663: etherswitch.interface1: packet sent: len=76
+5566730572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5566730572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5566734413: etherswitch.interface0: packet sent: len=76
+5588573822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5588573822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5588577663: etherswitch.interface1: packet sent: len=76
+5595238072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5595238072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5595241913: etherswitch.interface0: packet sent: len=76
+5614316822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5614316822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5614320663: etherswitch.interface1: packet sent: len=76
+5637904322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5637904322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5637908163: etherswitch.interface0: packet sent: len=76
+5656978322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5656978322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5656982163: etherswitch.interface1: packet sent: len=76
+5657692072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5657692072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5657695913: etherswitch.interface0: packet sent: len=76
+5668835322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5668835322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5668839163: etherswitch.interface0: packet sent: len=76
+5685182822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5685182822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5685186663: etherswitch.interface1: packet sent: len=76
+5686565822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5686565822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5686569663: etherswitch.interface1: packet sent: len=76
+5700098322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5700098322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5700102163: etherswitch.interface0: packet sent: len=76
+5703782072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5703782072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5703785913: etherswitch.interface0: packet sent: len=76
+5717822822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5717822822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5717826663: etherswitch.interface1: packet sent: len=76
+5721443072: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5721443072: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5721446913: etherswitch.interface1: packet sent: len=76
+5726786072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5726786072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5726789913: etherswitch.interface0: packet sent: len=76
+5747867322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5747867322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5747871163: etherswitch.interface1: packet sent: len=76
+5812730322: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5812730322: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5812734163: etherswitch.interface0: packet sent: len=76
+5821888072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5821888072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5821891913: etherswitch.interface0: packet sent: len=76
+5830472322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5830472322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5830476163: etherswitch.interface1: packet sent: len=76
+5862330822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5862330822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5862334663: etherswitch.interface1: packet sent: len=76
+5872831822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5872831822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5872835663: etherswitch.interface0: packet sent: len=76
+5890573322: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5890573322: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5890577163: etherswitch.interface1: packet sent: len=76
+5903671572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5903671572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5903675413: etherswitch.interface0: packet sent: len=76
+5907965072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5907965072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5907968913: etherswitch.interface0: packet sent: len=76
+5926280822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5926280822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5926284663: etherswitch.interface1: packet sent: len=76
+5927664822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5927664822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5927668663: etherswitch.interface1: packet sent: len=76
+5933673572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5933673572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5933677413: etherswitch.interface0: packet sent: len=76
+5939080338: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5939080338: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5939084179: etherswitch.interface0: packet sent: len=76
+5965503838: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5965503838: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5965507679: etherswitch.interface1: packet sent: len=76
+5968602822: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5968602822: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5968606663: etherswitch.interface1: packet sent: len=76
+5974502588: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+5974502588: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+5974506429: etherswitch.interface0: packet sent: len=76
+5992196588: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+5992196588: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+5992200429: etherswitch.interface1: packet sent: len=76
+6043278088: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+6043278088: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+6043281929: etherswitch.interface0: packet sent: len=76
+6075388588: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+6075388588: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+6075392429: etherswitch.interface1: packet sent: len=76
+6083434588: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+6083434588: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+6083438429: etherswitch.interface0: packet sent: len=76
+6100613088: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+6100613088: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+6100616929: etherswitch.interface0: packet sent: len=76
+6101714088: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+6101714088: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+6101717929: etherswitch.interface1: packet sent: len=76
+6118892588: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+6118892588: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+6118896429: etherswitch.interface1: packet sent: len=76
+6143104088: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+6143104088: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+6143107929: etherswitch.interface0: packet sent: len=76
+6147396338: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+6147396338: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+6147400179: etherswitch.interface0: packet sent: len=76
+6164281588: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+6164281588: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+6164285429: etherswitch.interface1: packet sent: len=76
+6165094088: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+6165094088: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+6165097929: etherswitch.interface1: packet sent: len=76
+6180556572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+6180556572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+6180560413: etherswitch.interface0: packet sent: len=76
+6198154822: etherswitch.interface0: no entry in forwaring table for MAC: 0
+6198158663: etherswitch.interface1: packet sent: len=76
+6206312588: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+6206312588: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+6206316429: etherswitch.interface0: packet sent: len=76
+6210729072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+6210729072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+6210732913: etherswitch.interface0: packet sent: len=76
+6224004588: etherswitch.interface0: found entry for MAC address b on port etherswitch.interface1
+6224004588: etherswitch.interface0: sending packet from MAC a on port etherswitch.interface0 to MAC b on port etherswitch.interface1
+6224008429: etherswitch.interface1: packet sent: len=76
+6234500072: etherswitch.interface0: no entry in forwaring table for MAC: 0
+6234503913: etherswitch.interface1: packet sent: len=76
+6293925072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+6293925072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+6293928913: etherswitch.interface0: packet sent: len=76
+6314924572: etherswitch.interface0: no entry in forwaring table for MAC: 0
+6314928413: etherswitch.interface1: packet sent: len=76
+6317478572: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+6317478572: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+6317482413: etherswitch.interface0: packet sent: len=76
+6334657072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+6334657072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+6334660913: etherswitch.interface0: packet sent: len=76
+6341250072: etherswitch.interface0: no entry in forwaring table for MAC: 0
+6341253913: etherswitch.interface1: packet sent: len=76
+6358430572: etherswitch.interface0: no entry in forwaring table for MAC: 0
+6358434413: etherswitch.interface1: packet sent: len=76
+6374375072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+6374375072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+6374378913: etherswitch.interface0: packet sent: len=76
+6378089822: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+6378089822: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+6378093663: etherswitch.interface0: packet sent: len=76
+6395519572: etherswitch.interface0: no entry in forwaring table for MAC: 0
+6395523413: etherswitch.interface1: packet sent: len=76
+6399098072: etherswitch.interface0: no entry in forwaring table for MAC: 0
+6399101913: etherswitch.interface1: packet sent: len=76
+6439772072: etherswitch.interface1: found entry for MAC address a on port etherswitch.interface0
+6439772072: etherswitch.interface1: sending packet from MAC b on port etherswitch.interface1 to MAC a on port etherswitch.interface0
+6439775913: etherswitch.interface0: packet sent: len=76
+6460775572: etherswitch.interface0: no entry in forwaring table for MAC: 0
+6460779413: etherswitch.interface1: packet sent: len=76
