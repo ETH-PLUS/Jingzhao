@@ -1,4 +1,4 @@
-.PHONY: com debug_dve clean
+.PHONY: com debug run clean
 
 # variables
 OUTPUT = hca_test
@@ -23,6 +23,7 @@ com:
 	-l compile.log \
 	-f filelist-htn.f -o ${OUTPUT}
 
+# debug command generates .vpd waveform file supported by DVE
 debug:
 	./${OUTPUT} -gui -uvmDebug +vpdfile+./run_case.vpd +UVM_VERDI_TRACE=HIER +UVM_VERBOSITY=UVM_LOW +UVM_TESTNAME=${TEST_NAME} \
 				+HOST_NUM=2 \
@@ -40,6 +41,8 @@ debug:
 				+RECV_WQE_NUM=1 \
                 +CASEID=932 \
 				-l run_case.log 
+
+# run command generates .log file without the waveform
 run:
 	./${OUTPUT} -uvmDebug +vpdfile+4KB.vpd +UVM_VERDI_TRACE=HIER +UVM_VERBOSITY=UVM_LOW +UVM_TESTNAME=${TEST_NAME} \
 				+HOST_NUM=2 \
@@ -57,23 +60,6 @@ run:
 				+RECV_WQE_NUM=1 \
                 +CASEID=949 \
 				-l run.log 
-debug500:
-	./${OUTPUT} -uvmDebug +vpdfile+500MB.vpd +UVM_VERDI_TRACE=HIER +UVM_VERBOSITY=UVM_LOW +UVM_TESTNAME=${TEST_NAME} \
-				+HOST_NUM=2 \
-				+PROC_NUM=2 \
-				+DB_NUM=1 \
-				+SG_NUM=1 \
-				+DATA_CNT=500 \
-				+DATA_UNIT=MB \
-				+RC_QP_NUM=2 \
-				+UC_QP_NUM=0 \
-				+UD_QP_NUM=0 \
-				+WRITE_WQE_NUM=1 \
-				+READ_WQE_NUM=0 \
-				+SEND_WQE_NUM=0 \
-				+RECV_WQE_NUM=0 \
-                +CASEID=950 \
-				-l 500MB.log 
-						
+
 clean:
 	rm -rf ${OUTPUT} *.vpd stack.info* session.inter.vpd.tcl csrc DVEfiles *.fsdb novas* *.daidir ucli.key vc_hdrs.h verdiLog flex* inter*
