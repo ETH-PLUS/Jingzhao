@@ -1,0 +1,3 @@
+[submodule "JingZhao2/simulator/RNIC_Simulator_Scheduler"]
+	path = JingZhao2/simulator/RNIC_Simulator_Scheduler
+	url = https://github.com/ZhenlongMa/RNIC_Simulator_Scheduler.git
