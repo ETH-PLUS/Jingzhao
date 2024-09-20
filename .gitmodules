@@ -1,3 +1,0 @@
-[submodule "JingZhao2/simulator/RNIC_Simulator"]
-	path = JingZhao2/simulator/RNIC_Simulator
-	url = https://github.com/ZhenlongMa/MultiCoreRNIC-Simulator-Gem-5.git
