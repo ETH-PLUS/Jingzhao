@@ -71,7 +71,7 @@ class hca_slave_driver extends uvm_driver #(hca_pcie_item);
         `uvm_info("NOTICE", {"run_phase begin in ", get_full_name()}, UVM_LOW);
         @ (posedge v_if.veri_en);
         forever begin
-            @ (posedge v_if.pcie_clk);
+            // @ (posedge v_if.pcie_clk);
             seq_item_port.get_next_item(resp_item);
             if (resp_item.item_type == GLOBAL_STOP) begin
                 `uvm_info("NOTICE", "global stop item received by slave driver!", UVM_LOW);

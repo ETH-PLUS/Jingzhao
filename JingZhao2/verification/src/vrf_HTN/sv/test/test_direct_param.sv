@@ -458,9 +458,11 @@ class test_direct_param extends uvm_test;
             for (int host_id = 0; host_id < host_num; host_id++) begin
 
                 //only host 0 can send
-                if (host_id == 1) begin
-                    break;
-                end
+                `ifdef ONE_SIDE_LAUNCH
+                    if (host_id == 1) begin
+                        break;
+                    end
+                `endif
                 
                 fork
                     automatic int a_host_id = host_id;
@@ -560,12 +562,15 @@ class test_direct_param extends uvm_test;
         end
 
         // host 1 is not sender
-        if (host_id == 1) begin
-            return;
-        end
+        `ifdef ONE_SIDE_LAUNCH
+            if (host_id == 1) begin
+                return;
+            end
+        `endif
 
         /*------------------------------------------------------------------
         // MEMORY SPACE FOR NETWORK DATA
+        // little address ----------------------------> large address
         // RC:
         // |    SEND    |  RECEIVE  |   WRITE   |   READ    |
         // UC:
