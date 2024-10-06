@@ -1,1 +1,1 @@
-# JingZhao: Open-Source Framework for Rapid NIC Prototyping
+# JingZhao: An Open-Source Framework for Rapid NIC Prototyping
