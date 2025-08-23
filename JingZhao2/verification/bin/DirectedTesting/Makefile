@@ -8,7 +8,7 @@ VPD_NAME = wave2.vpd
 
 # commands
 com:
-	vcs -sverilog -ntb_opts uvm \
+	vcs -sverilog -fgp -ntb_opts uvm \
 	-debug_access+all -lca \
 	-picarchive -full64 -timescale=1ns/100ps \
 	+acc +vpi \
@@ -44,7 +44,7 @@ debug:
 
 # run command generates .log file without the waveform
 run:
-	./${OUTPUT} -uvmDebug +vpdfile+wave.vpd +UVM_VERDI_TRACE=HIER +UVM_VERBOSITY=UVM_LOW +UVM_TESTNAME=${TEST_NAME} \
+	./${OUTPUT} -Xdprof=timeline -uvmDebug +vpdfile+wave.vpd +UVM_VERDI_TRACE=HIER +UVM_VERBOSITY=UVM_LOW +UVM_TESTNAME=${TEST_NAME} \
 				+HOST_NUM=2 \
 				+PROC_NUM=2 \
 				+DB_NUM=1 \
